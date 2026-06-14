@@ -14,7 +14,7 @@ import com.syntaxphoenix.spigot.smoothtimber.compatibility.factionsuuid.Factions
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.griefprevention.GriefPrevention;
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.jobsreborn.JobsReborn;
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.lands.Lands;
-import com.syntaxphoenix.spigot.smoothtimber.compatibility.logblock.LogBlock;
+// import com.syntaxphoenix.spigot.smoothtimber.compatibility.logblock.LogBlock;
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.mcmmo.McMmo;
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.placeholderapi.PlaceholderApi;
 import com.syntaxphoenix.spigot.smoothtimber.compatibility.residence.Residence;
@@ -41,7 +41,7 @@ public abstract class CompatibilityHandler {
         register("Residence", Residence.class);
         register("BlockyLog", BlockyLog.class);
         register("Lands", Lands.class);
-        register("LogBlock", LogBlock.class);
+        // register("LogBlock", LogBlock.class);
         register("mcMMO", McMmo.class);
         register("Towny", Towny.class);
         register("Factions", FactionsUUID.class);

@@ -57,7 +57,7 @@ public class BlockBreakListener implements Listener {
             }
         }
 
-        if (CutterConfig.SNEAK.test(() -> player.isSneaking())
+        if (!player.isSneaking()
             || CutterConfig.TOGGLEABLE.test(() -> SmoothTimber.STORAGE.hasToggled(player.getUniqueId()))) {
             return;
         }

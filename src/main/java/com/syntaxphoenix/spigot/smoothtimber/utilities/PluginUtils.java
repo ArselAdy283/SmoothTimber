@@ -84,7 +84,7 @@ public class PluginUtils {
     private void registerCommands() {
         final CommandRedirect command = new CommandRedirect();
 
-        final PluginCommand plugin = MAIN.getCommand("smoothtimber");
+        final PluginCommand plugin = MAIN.getCommand("wc");
         plugin.setExecutor(command);
         plugin.setTabCompleter(command);
 

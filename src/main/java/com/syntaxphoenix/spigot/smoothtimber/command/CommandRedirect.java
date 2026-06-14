@@ -20,11 +20,10 @@ import com.syntaxphoenix.syntaxapi.command.ExecutionState;
 public class CommandRedirect implements CommandExecutor, TabCompleter {
 
     @Override
-    public boolean onCommand(final CommandSender sender, final Command ignore, final String alias, final String[] args) {
+    public boolean onCommand(final CommandSender sender, final Command ignore, final String alias, String[] args) {
 
         if (args.length == 0) {
-            sender.sendMessage(Message.GLOBAL_PREFIX.colored() + ' ' + Message.COMMAND_NON222EXISTENT.colored());
-            return true;
+            args = new String[] { "toggle" };
         }
 
         if (!sender.hasPermission("smoothtimber.use")) {

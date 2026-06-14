@@ -7,9 +7,8 @@ softdepend: [BlockyLog, WorldGuard, Residence, Lands, Jobs, GriefPrevention, Pla
 folia-supported: true
 
 commands:
-    smoothtimber:
+    wc:
         description: SmoothTimber main command
-        aliases: [sm, stimb]
         usage: &cSomething went wrong while running this command, please report this to developer.
         
 permissions:
